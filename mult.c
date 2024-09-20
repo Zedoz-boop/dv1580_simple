@@ -25,7 +25,8 @@ int main(int argc, char *argv[]){
     printf("%.4f", sum);
   }
   else{
-    printf("Error: Both inputs must be numbers.\n");
+    printf("ERROR");
   }
+
   return 0;
 }

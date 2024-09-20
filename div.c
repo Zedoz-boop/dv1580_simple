@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <errno.h> 
 
 int is_number(const char *str) { 
     char *endptr; 
@@ -27,6 +28,9 @@ int main(int argc, char *argv[]){
     else{
       printf("DIV ZERO NOT ALLOWED!\n");
     }
+  }
+  else{
+    printf("ERROR");
   }
 
   return 0;
